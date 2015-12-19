@@ -6,5 +6,27 @@
 </head>
 <body>
 
+<h2>Valeurs des paramètres</h2>
+	
+	<label>Paramètre 1 : <span id="param1Value"></span></label><br>
+	<label>Paramètre 2 : <span id="param2Value"></span></label><br>
+	
+	<input type="button" value="Afficher les paramètres" onclick="getParameters()">
+	
+	<script type="text/javascript">
+		function getParameters()
+		{
+			var params = location.search.substring(1).split("&");
+			
+			var tabParam1 = params[0].split("=");
+			var param1Value = tabParam1[1];
+			document.getElementById("param1Value").innerHTML = param1Value;
+			
+			var tabParam2 = params[1].split("=");
+			var param2Value = tabParam2[1];
+			document.getElementById("param2Value").innerHTML = param2Value;
+		}
+	</script>
+
 </body>
 </html>
