@@ -31,11 +31,39 @@
 		</c:forEach>
 	</ul>
 	
-	<h3>
-		<c:out value="${param.prenom} ${param.nom } a visité les pays suivant :" />
-	</h3>
-	
-	
+	<div>
+	<!-- on teste si le gars a visité au moins un pays ou pas du tout -->
+	<c:choose>
+		<c:when test="${! empty paramValues.paysSelected && ! empty paramValues.paysOption }">
+		<h3>
+			<c:out value="${param.prenom} ${param.nom } a visité les pays suivant :" />
+		</h3>
+		<table border="1">
+			<tr>
+				<th>Sélection multiple de pays</th>
+				<td>
+					<c:forEach var="paramPS" items="${paramValues.paysSelected}">
+						<c:out value="${paramPS}"></c:out><br>
+					</c:forEach>
+				</td>
+			</tr>
+			<tr>
+				<th>Sélection d'autres pays</th>
+				<td>
+					<c:set var="tabPO" value="${fn:split(param.paysOption, ',') }"></c:set>
+					<c:forEach var="paramPO" items="${tabPO }">
+						<c:out value="${paramPO}" /><br>
+					</c:forEach>
+				</td>
+			</tr>
+		</table>
+		</c:when>
+		
+		<c:otherwise>
+			<c:out value="${param.prenom} ${param.nom } n'a visité aucun pays."></c:out>
+		</c:otherwise>
+	</c:choose>
+	</div>
 	
 </body>
 </html>
