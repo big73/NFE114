@@ -1,0 +1,31 @@
+.actionneur
+{
+	margin-left : 18px;
+	background-color: red;
+}
+
+fieldset { 
+    border-color: blue;
+    margin : 20px;    
+    padding : 20px;
+    background-color: blue;
+}
+
+input
+{
+	
+    background-color: green;
+}
+
+.saisie
+{
+	float : center;
+	rposition: center;
+	padding-left : 30px;
+}
+
+label
+{
+	background-color: orange;
+	float : left;
+}

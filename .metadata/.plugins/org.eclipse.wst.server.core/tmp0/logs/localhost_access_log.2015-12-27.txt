@@ -1,0 +1,9 @@
+127.0.0.1 - - [27/Dec/2015:21:51:30 +0100] "GET / HTTP/1.1" 404 1005
+0:0:0:0:0:0:0:1 - - [27/Dec/2015:21:51:34 +0100] "GET /Seance3_params_JSP/ HTTP/1.1" 200 1421
+0:0:0:0:0:0:0:1 - - [27/Dec/2015:21:51:34 +0100] "GET /Seance3_params_JSP/css/style.css HTTP/1.1" 200 73
+0:0:0:0:0:0:0:1 - - [27/Dec/2015:21:51:58 +0100] "GET /Seance3_params_JSP/afficheForm.jsp?nom=Yadine&prenom=Yassine&paysSelected=Espagne&paysSelected=Chine&paysOption=Maroc%2C+Norv%C3%A8ge HTTP/1.1" 200 504
+127.0.0.1 - - [27/Dec/2015:22:35:22 +0100] "GET / HTTP/1.1" 404 1005
+0:0:0:0:0:0:0:1 - - [27/Dec/2015:22:35:22 +0100] "GET /Intro_javaee/ HTTP/1.1" 404 1031
+0:0:0:0:0:0:0:1 - - [27/Dec/2015:22:35:35 +0100] "GET /Intro_javaee/index0.pjs HTTP/1.1" 404 1051
+0:0:0:0:0:0:0:1 - - [27/Dec/2015:22:35:46 +0100] "GET /Intro_javaee/index0.jsp HTTP/1.1" 200 410
+0:0:0:0:0:0:0:1 - - [27/Dec/2015:22:35:53 +0100] "GET /Intro_javaee/affiche0.jsp?age=39 HTTP/1.1" 200 250

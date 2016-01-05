@@ -1,0 +1,28 @@
+.actionneur
+{
+	margin-left : 18px;
+	background-color: red;
+}
+
+fieldset { 
+    border-color: blue;
+    margin : 20px;    
+    padding : 20px;
+    background-color: blue;
+}
+
+input
+{
+	
+    background-color: green;
+}
+
+form label {
+
+    float: left;
+
+    width: 200px;
+
+
+}
+

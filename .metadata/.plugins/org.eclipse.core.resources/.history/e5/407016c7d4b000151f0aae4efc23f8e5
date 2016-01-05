@@ -1,0 +1,7 @@
+package com.ipst.cnam.entities;
+
+import java.io.Serializable;
+
+public class Client implements Serializable {
+
+}
