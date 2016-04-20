@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<item value="true" key="CommitDialog.showUntracked"/>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="/home/big73/SI/REPOSITORIES/sec-repo"/>
+	</list>
 	<list key="CommitDialog.authorValues">
 		<item value="big73 &lt;yadine.yassine7@gmail.com&gt;"/>
 	</list>

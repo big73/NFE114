@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="java.io.PrintWriter"/>
 <fullyQualifiedTypeName name="com.ipst.cnam.control.CreationClient"/>
 <fullyQualifiedTypeName name="com.ipst.cnam.entities.Client"/>
+<fullyQualifiedTypeName name="javax.faces.bean.SessionScoped"/>
+<fullyQualifiedTypeName name="javax.persistence.Persistence"/>
+<fullyQualifiedTypeName name="javax.faces.bean.ManagedBean"/>
+<fullyQualifiedTypeName name="fr.ipst.cnam.daos.ManagerDao"/>
+<fullyQualifiedTypeName name="fr.ipst.cnam.entities.Brand"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="fr.ipst.cnam.daos.BrandDAO"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="fr.ipst.cnam.entities.Oc"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
+<fullyQualifiedTypeName name="fr.ipst.cnam.daos.ManagerDAO"/>
+<fullyQualifiedTypeName name="fr.ipst.cnam.daos.OCDAO"/>
 </qualifiedTypeNameHistroy>

@@ -7,6 +7,8 @@ doctypeExtrenalSysref=\#A7EC21 | null | null | null | null | null
 doctypeName=\#A7EC21 | null | null | null | null | null
 eclipse.preferences.version=1
 entityReference=\#FF007F | null | null | null | null | null
+newFileTemplateName=new JSF XHTML
+org.eclipse.wst.sse.ui.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="true" context\="html_all" deleted\="false" description\="" enabled\="true" name\="jsf xhtml">&lt;\!DOCTYPE html&gt;\n&lt;html xmlns\="http\://www.w3.org/1999/xhtml"\n                xmlns\:ui\="http\://java.sun.com/jsf/facelets"\n                xmlns\:f\="http\://java.sun.com/jsf/core"\n                xmlns\:h\="http\://java.sun.com/jsf/html"&gt;\n\t&lt;h\:head&gt;\n\t\t&lt;title&gt;Arithm Question&lt;/title&gt;\n\t&lt;/h\:head&gt;\n\n\t&lt;h\:body&gt;\n\t\n\t&lt;/h\:body&gt;\n&lt;/html&gt;</template><template autoinsert\="true" context\="html_new" deleted\="false" description\="Page JSF avec les 3 libs" enabled\="true" name\="new JSF XHTML">&lt;\!DOCTYPE html&gt;\n&lt;html lang\="fr"\n    xmlns\="http\://www.w3.org/1999/xhtml"\n    xmlns\:f\="http\://java.sun.com/jsf/core"\n    xmlns\:h\="http\://java.sun.com/jsf/html"\n    xmlns\:ui\="http\://java.sun.com/jsf/facelets"&gt;\n    &lt;h\:head&gt;\n        &lt;title&gt;Ins\u00E9rer le titre ici&lt;/title&gt;\n    &lt;/h\:head&gt;\n\n    &lt;h\:body&gt;\n        ${cursor}\n    &lt;/h\:body&gt;\n&lt;/html&gt;</template></templates>
 tagAttributeEquals=\#CFBFAD | null | null | null | null | null
 tagAttributeName=\#CFBFAD | null | null | null | null | null
 tagAttributeValue=\#ECE47E | null | null | null | null | null

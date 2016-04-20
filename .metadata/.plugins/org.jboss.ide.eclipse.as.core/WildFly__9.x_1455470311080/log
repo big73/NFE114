@@ -1,0 +1,13 @@
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-02-14 18:19:00.923
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-02-14 18:19:06.146
+!MESSAGE Module MavenHibernate on WildFly  9.x  not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-02-14 18:19:06.167
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2016-02-14 18:19:26.161
+!MESSAGE Module MavenHibernate on WildFly  9.x  still not ready to be shown in browser. Aborting delay.

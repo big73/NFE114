@@ -1,0 +1,6 @@
+127.0.0.1 - - [14/Feb/2016:18:08:27 +0100] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [14/Feb/2016:18:08:27 +0100] "GET /MavenHibernate/ HTTP/1.1" 200 678
+0:0:0:0:0:0:0:1 - - [14/Feb/2016:18:08:41 +0100] "POST /MavenHibernate/faces/index.xhtml HTTP/1.1" 500 6001
+127.0.0.1 - - [14/Feb/2016:20:00:55 +0100] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [14/Feb/2016:20:00:55 +0100] "GET /MavenHibernate/ HTTP/1.1" 200 678
+0:0:0:0:0:0:0:1 - - [14/Feb/2016:20:01:17 +0100] "POST /MavenHibernate/faces/index.xhtml HTTP/1.1" 500 6001

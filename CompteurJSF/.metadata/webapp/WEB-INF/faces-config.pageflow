@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf14548234306180" configfile="/CompteurJSF/webapp/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="testage.xhtml" x="122" y="370" id="pf14548606352750" referenceLink="//@navigationRule.0/@fromViewId|" outlinks="pf14548646501437" path="testage.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="adulte.xhtml" x="338" y="562" id="pf14548646501438" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" inlinks="pf14548646501437" path="adulte.xhtml"/>
+  <links id="pf14548646501437" target="pf14548646501438" source="pf14548606352750" outcome="majeur" fromaction="#{utilisateur.checkAge}"/>
+</pageflow:Pageflow>

@@ -124,7 +124,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="/home/big73/SI/REPOSITORIES/NFE114/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ROOT" path="" reloadable="false"/><Context docBase="/home/big73/SI/REPOSITORIES/NFE114/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/Seance4-step1" path="/Seance4-Step1" reloadable="true" source="org.eclipse.jst.jee.server:Seance4-step1"/><Context docBase="/home/big73/SI/REPOSITORIES/NFE114/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/Intro_javaee" path="/Intro_javaee" reloadable="true" source="org.eclipse.jst.jee.server:Intro_javaee"/></Host>
+      <Context docBase="/home/big73/SI/REPOSITORIES/NFE114/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ROOT" path="" reloadable="false"/><Context docBase="/home/big73/SI/REPOSITORIES/NFE114/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/TestContext" path="/TestContextOther" reloadable="true" source="org.eclipse.jst.jee.server:TestContext"/><Context docBase="/home/big73/SI/REPOSITORIES/NFE114/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/Luk2000" path="/Luk2000" reloadable="true" source="org.eclipse.jst.jee.server:Luk2000"/></Host>
     </Engine>
   </Service>
 </Server>

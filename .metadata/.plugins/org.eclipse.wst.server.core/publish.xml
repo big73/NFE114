@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <publish-info>
   <server id="Tomcat v8.0 Server at localhost" path="publish0.dat"/>
+  <server id="GlassFish 4 Eclipse [domain1]" path="publish1.dat"/>
+  <server id="Apache TomEE Plume" path="publish3.dat"/>
+  <server id="Apache TomEE v7.0" path="publish2.dat"/>
+  <server id="WildFly  9.x 1455470311080" path="publish4.dat"/>
 </publish-info>

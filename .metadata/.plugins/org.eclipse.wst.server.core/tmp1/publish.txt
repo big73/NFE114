@@ -1,0 +1,4 @@
+#GlassFish 3
+#Mon Feb 22 22:06:24 CET 2016
+org.eclipse.jst.jee.server\:MavenHibernate=/home/big73/SI/ServersAppli/glassfish-4.0/glassfish/domains/domain1/eclipseApps/MavenHibernate
+org.eclipse.jst.jee.server\:Seance3_params_JSP=/home/big73/SI/ServersAppli/glassfish-4.0/glassfish/domains/domain1/eclipseApps/Seance3_params_JSP

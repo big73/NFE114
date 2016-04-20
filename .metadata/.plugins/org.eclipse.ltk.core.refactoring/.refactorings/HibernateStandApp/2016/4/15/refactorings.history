@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ManagerDAO.java&apos; to &apos;Luk2000/src/main/java/fr.ipst.cnam.daos&apos;&#x0A;- Original project: &apos;HibernateStandApp&apos;&#x0A;- Destination element: &apos;Luk2000/src/main/java/fr.ipst.cnam.daos&apos;&#x0A;- Original element: &apos;fr.ipst.cnam.daos.ManagerDAO.java&apos;" description="Copy compilation unit" destination="=Luk2000/src\/main\/java&lt;fr.ipst.cnam.daos" element1="/src\/main\/java&lt;fr.ipst.cnam.daos{ManagerDAO.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1460897677341" units="1" version="1.0"/>
+</session>
